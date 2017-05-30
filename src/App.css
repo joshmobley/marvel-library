@@ -1,0 +1,52 @@
+body {
+  font-family: helvetica;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1rem;
+}
+
+li {
+  flex-basis: 25%;
+}
+
+li a {
+  display: flex;
+  margin: 1.25%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #eee;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  position: relative;
+  background-color: #ccc;
+}
+
+li a:hover::after {
+  background: rgba(0,0,0,.25);
+}
+
+li a span{
+  z-index: 1;
+  font-size: 1.2em;
+}
+
+li a::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    display: block;
+    background: rgba(0,0,0,.5);
+    position:absolute;
+    transition: background .4s;
+  }
