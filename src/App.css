@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
 body {
-  font-family: helvetica;
+  font-family: 'Fjalla One', sans-serif;
+  padding-bottom: 40px;
 }
 
 ul {
@@ -19,7 +22,6 @@ li a {
   height: 200px;
   align-items: center;
   justify-content: center;
-  text-align: center;
   background: #eee;
   border-radius: 5px;
   background-position: center;
@@ -27,6 +29,7 @@ li a {
   color: white;
   position: relative;
   background-color: #ccc;
+  line-height: 1.4em;
 }
 
 li a:hover::after {

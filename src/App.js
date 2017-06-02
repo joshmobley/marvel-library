@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './header/header';
 import Footer from './footer/footer';
@@ -7,15 +6,10 @@ import Character from './character/character';
 import CharacterList from './character-list/character-list';
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom'
 
 class App extends Component {
-
-  constructor() {
-    super();
-  }
 
   render() {
     return (
@@ -23,7 +17,7 @@ class App extends Component {
       <div>
         <Header />
           <Route exact path="/" component={CharacterList} />
-          <Route path="/test" component={Character} />
+          <Route path="/character/:id" component={Character} />
         <Footer />
       </div>
         </Router>

@@ -1,0 +1,49 @@
+.character {
+    padding: 2rem;
+}
+
+.character::after {
+    content: '';
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+img { 
+    float: left;
+    width: 25%;
+}
+
+.content {
+    float: right;
+    width: 70%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+a {
+    color: blue;
+}
+
+.back-link {
+    margin-bottom: 1em;
+    display: inline-block;
+    color: #666;
+    font-size: .8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.back-link:hover {
+    color: red;
+}

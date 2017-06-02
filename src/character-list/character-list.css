@@ -1,0 +1,24 @@
+#character-list span {
+    text-decoration: none;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+#character-list button {
+    font-size: 1.4em;
+    background: #ddd;
+    color: #333;
+    padding: .5em 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin: 2em auto;
+    display: block;
+    cursor: pointer;
+    transition: background .3s;
+    outline: none;
+}
+
+#character-list button:hover {
+    background: #ccc;
+}

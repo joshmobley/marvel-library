@@ -4,7 +4,10 @@ import './header.css';
 class Header extends Component {
     render () {
         return (
-            <h1>Marvel Comics Character Library</h1>
+            <header>
+                <a href="/">
+                    <span>Marvel Comics</span> Character Library</a>
+            </header>
         );
     }
 }

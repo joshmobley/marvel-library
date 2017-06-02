@@ -2,8 +2,16 @@
     padding: 1em 2em;
     background: black;
     color: white;
+    clear: both;
+    font-size: .8em;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
-a { 
+.footer a { 
     color: white;
 }
